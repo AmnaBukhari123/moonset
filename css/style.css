@@ -1,0 +1,100 @@
+h1 {
+
+    font-family: serif;
+    color: white;
+    line-height: 0.5em;
+}
+
+h4 {
+    font-family: serif;
+    color: white;
+    line-height: 0.5em;
+}
+
+
+h2 {
+    border: solid rgb(8, 8, 54);
+    background-color:rgb(8, 8, 54);
+    color: aliceblue;
+    font-family: serif;
+    padding: 5px;
+
+}
+
+
+.info {
+    font-family: serif;
+    color: white;
+}
+
+
+table {
+    display: table;
+    /*border: 1px solid black;
+    border-collapse: collapse;*/
+    text-align: justify;
+   /* margin: auto;*/
+
+}
+
+tr, td{
+   /* border: 1px solid black;*/
+    padding: 10px;
+
+}
+
+
+.image {
+    float: left;
+    margin: 20px;
+    margin-top: 5px;
+    padding: 0px;
+    width: 130px;
+    height: 145px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 3px solid aliceblue;
+}
+
+
+
+.CV {
+    background-color: rgb(228, 228, 241);
+    font-family: serif;
+    font-size:larger;
+    line-height: 1.6em;
+    border: 5px solid rgb(8, 8, 54);
+    padding: 0px;
+    width: 55%;
+    height: 55%;
+    margin: auto;
+
+}
+
+html{
+    background-color: aliceblue;
+}
+
+.top{
+    background-color: rgb(8, 8, 54);
+    color: white;
+    height: 170px;
+   padding: 20px;
+}
+
+
+@media (max-width: 1050px){
+    .CV{
+        
+        width: 90vw;
+        
+    }
+    
+
+    .top{
+       display: flex;
+       flex-direction: column;
+        height: auto;
+    }
+
+}
